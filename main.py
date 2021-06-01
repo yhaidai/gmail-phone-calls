@@ -8,5 +8,6 @@ if __name__ == '__main__':
     while True:
         if message_from_epam():
             make_call(PERSONAL_PHONE_NUMBER)
+            break
 
         time.sleep(2)
